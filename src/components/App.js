@@ -10,9 +10,9 @@ function App() {
       padding: 0,
       margin: 0
     }}>
-      <Banner />
+
       <Accueil />
-      <Footer />
+
     </div>
   );
 }

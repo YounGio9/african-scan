@@ -1,0 +1,39 @@
+.Footer {
+    background-color: #403737;
+    width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    justify-items: center;
+    color: white;
+}
+
+.Footer img {
+    background-color: #403737;
+}
+
+.Footer-sections {
+    display: grid;
+    grid-gap: 12px;
+    justify-items: center;
+    margin: 30px auto;
+}
+
+.Footer-reseaux {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px auto 40px auto;
+}
+
+@media (min-width: 650px) {
+    .Footer {
+        display: grid;
+    }
+
+    .Footer-infos {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+}

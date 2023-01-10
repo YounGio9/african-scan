@@ -1,0 +1,251 @@
+.Accueil {
+    width: 100%;
+    display: grid;
+    margin-top: 90px;
+    justify-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.infos {
+    width: 100%;
+}
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 85px;
+}
+
+.welcome span {
+    font-size: 52px;
+    font-weight: 700;
+}
+.welcome p {
+    width: 40vw;
+    margin-bottom: 50px;
+}
+
+.signin-signup{
+    display: flex;
+    width: 18vw;
+    justify-content: space-between;
+}
+
+.signin-signup button {
+    background: #D08138;
+    font-family: 'Urbanic', sans-serif;
+    border-radius: 10px;
+    font-size: 13.22px;
+    width: 43%;
+    padding: 10px;
+    border: 1px solid #D08138;
+}
+
+.reseaux {
+    display: flex;
+    justify-content: space-between;
+    width: 32%;
+    background-color: #D08138;
+    padding: 5px 20px;
+    border-radius: 25px;
+    box-shadow: -8px -8px #FBE0BA, 8px 8px  #CF7878;
+}
+.scans-online-section {
+    background-color: #FBE0BA;
+    width: 100%;
+}
+.videos-online-section {
+    width: 68%;
+}
+.scans-online-section h3 {
+    margin: 2vw auto 4vw 10vw;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.videos-online-section h3 {
+    width: 100%;
+    margin: 60px 0;
+    text-align: right;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+}
+.videos-online-section h3::after, .scans-online-section h3::after { 
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    display: inline-block;
+    height: 12%;
+    width: 15%;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.scans-online-section h3::after {
+    left: 0;
+}
+
+.scans-online, .videos-online {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+.videos-online {
+    justify-content: space-between;
+}
+
+.scans-online p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+}
+
+.Lancez-vous {
+    background-color:#FBE0BA;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+
+.Lancez-vous strong {
+    font-size: 22px;
+    line-height: 25px;
+    margin-top: 40px;
+}
+
+.Lancez-vous p {
+    font-size: 20px;
+    font-weight: bold;
+}
+#subscribe {
+    padding: 7px 15px;
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 26px;
+    margin: 40px 0 50px 0;
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 650px) {
+    .welcome {
+        display: grid;
+        justify-items: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .welcome img{
+        width: 100%;
+        margin-top: -30px;
+    }
+    .signin-signup {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .welcome span {
+        display: inline-block;
+        font-size: 30px;
+        text-align: center;
+        width: 100vw;
+    }
+
+    .welcome p {
+        width: 95%;
+        padding: 8px;
+        font-size: 12px;
+        text-align: center;
+        
+    }
+    .scans-online-section {
+       position: relative;
+       justify-items: center;
+       align-items: center;
+    }
+
+    .scans-online{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .scans-online-section h3{
+        width: 100vw;
+        font-size: 15px;
+        margin: 0 0 30px 0;
+        display: inline-block;
+        text-align: center;
+    }
+    .videos-online-section h3 {
+        width: 100vw;
+        text-align: center;
+        margin: 0;
+        font-size: 15px;
+        
+    }
+    .scans-online-section h3::after, .videos-online-section h3::after {
+    content: '';
+	position: absolute;
+	bottom: -15px;
+    left: 0;
+    right: 0;
+    margin: auto;
+	width: 32%;
+    height: 25%;
+	display: inline-block;
+	background-color: black;
+    border-radius: 5px;
+       
+    }
+   .videos-online {
+    padding: 0;
+   }
+    .videos-online img {
+        width: 100%;
+    }
+    .wave {
+      margin-bottom: -20%;
+    }
+    .videos-online-section {
+        width: 90vw;
+    }
+    .videos-online-section h3 {
+        width: 100%;
+        margin: 60px 0;
+        text-align: center;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    .reseaux {
+        width: 80%;
+        box-shadow: -5px -5px #FBE0BA, 5px 5px  #CF7878;
+    }
+
+    .Lancez-vous {
+        background-color:#FBE0BA;
+        display: grid;
+        justify-items: center;
+        text-align: center;
+    }
+    #subscribe {
+        padding: 7px 15px;
+        background-color: rgb(255, 255, 255, 0.8);
+        border-radius: 26px;
+        margin: 40px 0 50px 0;
+        width: 82%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}

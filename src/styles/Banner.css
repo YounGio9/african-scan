@@ -1,0 +1,62 @@
+ body {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Urbanist', 'sans-serif';
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.Banner-first {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: calc(100vw - 140px) ;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px 10px 60px;
+    overflow: hidden;
+}
+
+.banner-right {
+    width: calc(95vw * 2/3);
+    display: flex;
+    font-size: 13.23;
+    justify-content: space-between;
+    align-items: center;
+}
+.command-btn, .scans-online button {
+    color: #D08138;
+    background-color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 650px) {
+    .banner-right {
+        display: none;
+    }
+    .Banner-first {
+        background-color: rgba(255, 255, 255, 0.92);
+        position: absolute;
+        z-index: 1000;
+        padding: 0px 15px;
+        width: calc(100vw - 15px * 2) ;
+        height: 67px;
+    }
+    .Banner {
+        position: fixed;
+        top: 0;
+        z-index: 1500;
+        display: grid;
+        background-color: rgba(255, 255, 255, 0.92);
+    }
+    .Banner-second {
+       position: absolute;
+       top: 67px;
+       height: 150px;
+    }
+}
