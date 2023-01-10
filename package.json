@@ -2,6 +2,7 @@
   "name": "african-scan",
   "version": "0.1.0",
   "private": true,
+  "home": "https://youngio9.github.io/african-scan",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
