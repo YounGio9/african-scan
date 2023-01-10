@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/african-scan/static/css/main.d192c9fb.css",
+    "main.css": "/african-scan/static/css/main.364b3e62.css",
     "main.js": "/african-scan/static/js/main.ccc8778b.js",
     "static/js/787.ccad62e3.chunk.js": "/african-scan/static/js/787.ccad62e3.chunk.js",
     "static/media/Rectangle 5scan-online-2.png": "/african-scan/static/media/Rectangle 5scan-online-2.5ce5d01e8c7f1f621382.png",
@@ -10,12 +10,12 @@
     "static/media/Rectangle 4scan-online-1.png": "/african-scan/static/media/Rectangle 4scan-online-1.c9eede006a9accc340c8.png",
     "static/media/Rectangle 7video-online-2.png": "/african-scan/static/media/Rectangle 7video-online-2.44792224f2d2fcd2c303.png",
     "index.html": "/african-scan/index.html",
-    "main.d192c9fb.css.map": "/african-scan/static/css/main.d192c9fb.css.map",
+    "main.364b3e62.css.map": "/african-scan/static/css/main.364b3e62.css.map",
     "main.ccc8778b.js.map": "/african-scan/static/js/main.ccc8778b.js.map",
     "787.ccad62e3.chunk.js.map": "/african-scan/static/js/787.ccad62e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d192c9fb.css",
+    "static/css/main.364b3e62.css",
     "static/js/main.ccc8778b.js"
   ]
 }
