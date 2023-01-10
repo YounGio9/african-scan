@@ -1,18 +1,18 @@
-
+import Accueil from "./Accueil";
+import Banner from "./Banner";
+import Footer from "./Footer"
 
 function App() {
   return (
-    <div className="App">
-  
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-
+    <div className="App" style={{
+      width: "100%",
+      height: "100%",
+      padding: 0,
+      margin: 0
+    }}>
+      <Banner />
+      <Accueil />
+      <Footer />
     </div>
   );
 }
